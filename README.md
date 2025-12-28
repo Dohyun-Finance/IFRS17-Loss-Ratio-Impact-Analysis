@@ -5,7 +5,7 @@
 
 ---
 
-## 2-1. 프로젝트 개요 (Project Overview)
+## 1. 프로젝트 개요 (Project Overview)
 본 프로젝트는 2025년 금융당국이 제시한 **'신규 담보 손해율 가이드라인'** 이 보험사의 재무제표에 미치는 영향을 정량적으로 분석하기 위해 기획되었습니다. 기존의 낙관적인 가정(손해율 65% 내외)에서 당국 권고치(90%)로 가정을 변경했을 때 발생하는 **미래 서비스 마진(CSM)의 위축**과 **지급여력비율(K-ICS)의 하락폭**을 머신러닝 및 재무 모델링으로 구현했습니다.
 
 **핵심 내용 및 주요 기능:**
@@ -16,7 +16,7 @@
 
 ---
 
-## 2-2. 기술 스택 (Tech Stack)
+## 2. 기술 스택 (Tech Stack)
 ### Language
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ### Libraries
@@ -30,7 +30,7 @@
 
 ---
 
-## 2-3. 분석 방법론 및 재무 로직 (Methodology and Logic)
+## 3. 분석 방법론 및 재무 로직 (Methodology and Logic)
 
 ### 1) 데이터 컬렉팅 (Data Collecting)
 * IFRS17 환경을 반영하여 보험료(Premium), 사업비율(Expense Ratio), 손해율(Loss Ratio) 변수를 포함한 1,000건의 합성 데이터 생성.
@@ -46,7 +46,7 @@
 
 ---
 
-## 2-4. 주요 분석 결과 (Key Findings)
+## 4. 주요 분석 결과 (Key Findings)
 
 ### [분석 1] 규제 전후 수익성 분포 변화
 ![수익성 분포 분석](./outputs/figures/loss_ratio_impact_analysis.png)
@@ -65,7 +65,7 @@
 
 ---
 
-## 2-5. 인사이트 (Insights)
+## 5. 인사이트 (Insights)
 
 1.  **보수적 회계 가정의 중요성**: 이번 시뮬레이션을 통해 낙관적 가정이 보험사의 재무 건전성을 왜곡할 수 있음을 확인했으며, 금융당국의 가이드라인 준수가 장기적 재무 투명성 확보의 핵심임을 도출함.
 2.  **상품 포트폴리오 재편 필요성**: 손해율 90% 적용 시 수익성이 마이너스로 전환되는 상품군이 확인됨에 따라, 보장성 보험 중심의 고수익 상품 포트폴리오 믹스 개선 전략이 필수적임.
