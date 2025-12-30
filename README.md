@@ -54,12 +54,12 @@
 * **사진 설명**: KDE Plot을 통해 규제 도입 전후의 수익 분포 Shift를 시각화하였으며, 손실부담계약 비중이 유의미하게 증가함을 입증.
 
 ### [분석 2] 재무 제표 영향도 시뮬레이션
-![재무 영향 분석](./outputs/figures/financial_impact_analysis_final.png)
+![재무 영향 분석](./results/financial_impact_analysis_final.png)
 * **결과 요약**: 손해율 90% 가정 시 전체 CSM 규모는 약 **28.0억 원에서 음수권으로 하락**함.
 * **사진 설명**: CSM 총액과 연간 인식 이익의 변동을 '억 원' 단위로 비교하여 규제 도입에 따른 당기순이익 하락 폭을 정량화함.
 
 ### [분석 3] K-ICS 건전성 민감도 분석
-![건전성 분석](./outputs/figures/kics_sensitivity_analysis.png)
+![건전성 분석](./results/kics_sensitivity_analysis.png)
 * **결과 요약**: 당기순이익 하락으로 인해 **K-ICS 비율이 기존 대비 약 20%p 이상 하락**하는 충격 발생.
 * **사진 설명**: 가용자본 감소에 따른 K-ICS 비율의 변화를 금융당국 권고치(150%) 및 법적 기준선(100%)과 비교 분석함.
 
