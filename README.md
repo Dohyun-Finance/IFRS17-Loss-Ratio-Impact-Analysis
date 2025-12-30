@@ -49,7 +49,7 @@
 ## 4. 주요 분석 결과 (Key Findings)
 
 ### [분석 1] 규제 전후 수익성 분포 변화
-![수익성 분포 분석](./outputs/figures/loss_ratio_impact_analysis.png)
+![수익성 분포 분석](./results/loss_ratio_impact_analysis.png)
 * **결과 요약**: 규제 가이드라인 적용 시, 포트폴리오의 이익 분포가 플러스(이익) 구간에서 마이너스(손실) 구간으로 급격히 이동함.
 * **사진 설명**: KDE Plot을 통해 규제 도입 전후의 수익 분포 Shift를 시각화하였으며, 손실부담계약 비중이 유의미하게 증가함을 입증.
 
